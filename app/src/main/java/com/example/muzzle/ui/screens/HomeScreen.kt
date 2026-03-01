@@ -68,14 +68,12 @@ fun HomeContent(
     onMuzzleClick: () -> Unit
 ) {
     Box(modifier = Modifier.fillMaxSize()) {
-        // Background
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(color = EmotionColors.HomeBackground)
         )
 
-        // Center text
         Column(
             modifier = Modifier.align(Alignment.Center),
             horizontalAlignment = Alignment.CenterHorizontally

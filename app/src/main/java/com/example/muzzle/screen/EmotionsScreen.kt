@@ -43,7 +43,6 @@ fun EmotionsScreen() {
     val animationValues = rememberEmotionTransition(selectMode)
 
     Column(modifier = Modifier.fillMaxSize()) {
-        // Background
         Row(modifier = Modifier.weight(1f)) {
             Box(
                 modifier = Modifier
